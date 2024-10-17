@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tahap3html</title>
+</head>
+<body>
+	<h1 align="center" id="top">Welcome to my website</h1>
+	<h3 align="center">EL DESIGN</h3>
+
+	<ul type="square">
+		<li><a href="#makanan">lihat menu makanan</a></li>
+		<li><a href="#minuman">Lihat menu minuman</a></li>
+		<li><a href="#pemesanan">Lihat menu order</a></li>
+		<li><a href=#daftar>Menu Pendaftaran member</a></li>
+	</ul>
+
+	<!-- menu makanan -->
+	<p id="makanan" style="color: red"><strong>Menu makanan kami:</strong></p>
+	<img src="images/madu.jpeg" width="100px">
+	<ul>
+		<li>Nasi goreng</li>
+		<li>ayam crispy</li>
+		<li>ayam geprek</li>
+	</ul>
+	<br>
+	<p id="minuman" style="color: red"><strong>Menu minuman kami:</strong></p>
+	<img src="images/sepatu.png" width="100px">
+	<ul>
+		<li>Jus alpukat</li>
+		<li>Jus mangga</li>
+		<li>Jus Jeruk</li>
+	</ul>
+	<p id="pemesanan">Klik<a href="pemesanan.html"> disini </a>untuk melakukan pemesanan</p>
+<br>
+     <table border="1">
+     	<tbody>
+     		<!-- baris 1 -->
+     		<tr>
+     			<td>No</td>
+     			<td>Makanan</td>
+     			<td rowspan="4"><img src="images/madu.jpeg" width="300px"></td>
+     			<td>Minuman</td>
+     		</tr>
+     		<!-- baris2 -->
+     		<tr>
+     			<td>1</td>
+     			<td>Nasi goreng</td>
+     			
+     			<td>Jus alpukat</td>
+     		</tr>
+     		<!-- baris3 -->
+     		<tr>
+     			<td>2</td>
+     			<td>ayam crispy</td>
+     			
+     			<td>jus mangga</td>
+     		</tr>
+     		<tr>
+     			<td>3</td>
+     			<td>Ayam Geprek</td>
+     			
+     			<td>Jus jeruk</td>
+     		</tr>
+     	</tbody>
+
+     </table>
+     <br>
+     <p id="daftar"><strong><u>Formulir pendaftaran</u></strong></p>
+     <form>
+     	<table border="1">
+     		<tbody>
+     			<tr>
+     				<td align="center" colspan="4"><label for="username">Username</label><input type="text" id="username"><label for="pw">Password</label><input type="Password" id="pw"></td>
+     			</tr>
+     			<tr>
+     				<td align="center" colspan="4"><label for="man">Man</label><input type="radio" id="man" name="jk"><label for="Woman">Woman</label><input type="radio" id="Woman" name="jk"></td>
+     			</tr>
+     			<tr>
+     				<td colspan="4" align="center"><strong>My Favorit food :</strong></td>
+     			</tr>
+     			<tr>
+     				<td align="center" colspan="4"><label for="bakso">Bakso</label><input type="checkbox" id="bakso"><label for="Ayam geprek">Ayam geprek</label><input type="checkbox" id="ayam geprek"><label for="Nasi goreng">Nasi goreng</label><input type="checkbox" id="Nasi goreng"></td>
+     			</tr>
+     			<tr>
+     				<td colspan="4" align="center">
+     				<select>
+     					<option>Province</option>
+     					<option>Sumatera selatan</option>
+     					<option>Sumatera barat</option>
+     					<option>Sumatera utara</option>
+     					<option>Jawa barat</option>
+     					<option>Jawa timur</option>
+     					<option>sulawesi selatan</option>
+     					<option>Sulawesi tenggara</option>
+     				</select>
+     				</td>
+     			</tr>
+     			<tr>
+     				<td colspan="4" align="center"><textarea>write your comment here</textarea></td>
+     			</tr>
+     			<tr>
+     				<td align="left"><button type="reset">Reset</button></td>
+     				<td align="right"><button type="submit">Submit</button></td>
+     			</tr>
+     		</tbody>
+     	</table>
+     	<p><a href="#top">kembali ke halaman atas</a></p>
+     </form>
+
+
+</body>
+</html>
