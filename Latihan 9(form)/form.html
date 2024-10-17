@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML form</title>
+</head>
+<body>
+	<form>
+		<!-- membuat elemen input(memasukkan)type=text dan elemen label(untuk menamainya)for harus sama dengan id pada elemen input  -->
+		<label for="username">Username :</label>
+		<input type="text" id="username">
+			<br>
+		<!-- elemen input type password -->
+		<label for="password">Password :</label>
+		<input type="password" id="password">
+			<br>
+			<!-- Elemen input type radio(untuk membuat salah satu pilihan) -->
+		<p>Jenis kelamin</p>
+		<input type="radio" id="Pria" name="jeniskelamin"><label for="pria">Pria</label>
+		<input type="radio" id="Wanita" name="jeniskelamin"><label for="Wanita">Wanita</label>
+			<!-- Elemen input type checkbox(untuk membuat banyak pilihan) -->
+			<br>
+			<p>Hobi</p>
+		<input type="checkbox" id="Sepak Bola"><label for="Sepak Bola">Sepak Bola</label>
+		<input type="checkbox" id="Memancing"><label for="Memancing">Memancing</label>
+		<input type="checkbox" id="Ngoding"><label for="Ngoding">Ngoding</label>
+			<br>
+			<!-- Elemen ke-2 dari tag form yaitu textarea(yang disimpan/ditulis lebih banyak dari elemen input seperti artikel dll) -->
+		<textarea>apa alasanmu</textarea>
+			<br>
+		<!--Elemen ke-3 Untuk membuat pilihan seperti nama kota,daerah dan lain-lain -->
+		<label for="provinsi">Provinsi</label>
+		<select id="provinsi">
+			<option>Sumsel</option>
+			<option>Jakarta</option>
+			<option>kalimantan</option>
+		</select>
+		<!-- Membuat tombol kirim dengan elemen button -->
+		<br><button type="submit">Kirim Kelah</button>
+	</form>
+
+
+</body>
+</html>
